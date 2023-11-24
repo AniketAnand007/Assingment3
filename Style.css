@@ -1,0 +1,68 @@
+body {
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e00f0f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#candy-info, #nutritional-info {
+    margin-bottom: 20px;
+}
+
+.a {
+    width: 70%;
+    height:  350px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+.b{
+    width: 70%;
+    height:  350px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.c{
+
+    width: 20%;
+    height:  100px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0px;
+}
+.d{
+
+    width: 20%;
+    height:  100px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.b:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+footer {
+    background-color: #e00f0f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
